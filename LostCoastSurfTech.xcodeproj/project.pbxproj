@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03ABAC242012C4A100B396D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ABAC232012C4A100B396D1 /* AppDelegate.swift */; };
+		03ABAC262012C4A100B396D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ABAC252012C4A100B396D1 /* ViewController.swift */; };
+		03ABAC292012C4A100B396D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03ABAC272012C4A100B396D1 /* Main.storyboard */; };
+		03ABAC2B2012C4A100B396D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ABAC2A2012C4A100B396D1 /* Assets.xcassets */; };
+		03ABAC2E2012C4A100B396D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03ABAC2C2012C4A100B396D1 /* LaunchScreen.storyboard */; };
+		03ABAC392012C4A200B396D1 /* LostCoastSurfTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ABAC382012C4A200B396D1 /* LostCoastSurfTechTests.swift */; };
+		03ABAC442012C4A200B396D1 /* LostCoastSurfTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ABAC432012C4A200B396D1 /* LostCoastSurfTechUITests.swift */; };
+		3CB3505E54B634F0E0C4FD7A /* Pods_LostCoastSurfTechUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022D22CAC36AF570AA6E9E83 /* Pods_LostCoastSurfTechUITests.framework */; };
+		A91D554A5C4A0099B12D6E26 /* Pods_LostCoastSurfTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BFA258FE53756B718A1041 /* Pods_LostCoastSurfTech.framework */; };
+		DBD1987CCF6F5FA3D5CA24C2 /* Pods_LostCoastSurfTechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BEEFBAFB5F316BD6AD3B67 /* Pods_LostCoastSurfTechTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03ABAC352012C4A200B396D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03ABAC182012C4A100B396D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03ABAC1F2012C4A100B396D1;
+			remoteInfo = LostCoastSurfTech;
+		};
+		03ABAC402012C4A200B396D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03ABAC182012C4A100B396D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03ABAC1F2012C4A100B396D1;
+			remoteInfo = LostCoastSurfTech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022D22CAC36AF570AA6E9E83 /* Pods_LostCoastSurfTechUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LostCoastSurfTechUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03ABAC202012C4A100B396D1 /* LostCoastSurfTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LostCoastSurfTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03ABAC232012C4A100B396D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03ABAC252012C4A100B396D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03ABAC282012C4A100B396D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03ABAC2A2012C4A100B396D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03ABAC2D2012C4A100B396D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03ABAC2F2012C4A200B396D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03ABAC342012C4A200B396D1 /* LostCoastSurfTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LostCoastSurfTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03ABAC382012C4A200B396D1 /* LostCoastSurfTechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostCoastSurfTechTests.swift; sourceTree = "<group>"; };
+		03ABAC3A2012C4A200B396D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03ABAC3F2012C4A200B396D1 /* LostCoastSurfTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LostCoastSurfTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03ABAC432012C4A200B396D1 /* LostCoastSurfTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostCoastSurfTechUITests.swift; sourceTree = "<group>"; };
+		03ABAC452012C4A200B396D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58F78D202C28B88A079AA735 /* Pods-LostCoastSurfTechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostCoastSurfTechTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LostCoastSurfTechTests/Pods-LostCoastSurfTechTests.release.xcconfig"; sourceTree = "<group>"; };
+		87C18B51DFE175606AC99896 /* Pods-LostCoastSurfTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostCoastSurfTech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LostCoastSurfTech/Pods-LostCoastSurfTech.debug.xcconfig"; sourceTree = "<group>"; };
+		B7482F765A5D1530A9C21D81 /* Pods-LostCoastSurfTechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostCoastSurfTechTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LostCoastSurfTechTests/Pods-LostCoastSurfTechTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9BEEFBAFB5F316BD6AD3B67 /* Pods_LostCoastSurfTechTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LostCoastSurfTechTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D251EE08BD05B53C41A9E761 /* Pods-LostCoastSurfTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostCoastSurfTech.release.xcconfig"; path = "Pods/Target Support Files/Pods-LostCoastSurfTech/Pods-LostCoastSurfTech.release.xcconfig"; sourceTree = "<group>"; };
+		D658AF39D02016E90AB79E54 /* Pods-LostCoastSurfTechUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostCoastSurfTechUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LostCoastSurfTechUITests/Pods-LostCoastSurfTechUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E22CB85B01EA1B64B73C302C /* Pods-LostCoastSurfTechUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostCoastSurfTechUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LostCoastSurfTechUITests/Pods-LostCoastSurfTechUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E9BFA258FE53756B718A1041 /* Pods_LostCoastSurfTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LostCoastSurfTech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03ABAC1D2012C4A100B396D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91D554A5C4A0099B12D6E26 /* Pods_LostCoastSurfTech.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03ABAC312012C4A200B396D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD1987CCF6F5FA3D5CA24C2 /* Pods_LostCoastSurfTechTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03ABAC3C2012C4A200B396D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB3505E54B634F0E0C4FD7A /* Pods_LostCoastSurfTechUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03ABAC172012C4A100B396D1 = {
+			isa = PBXGroup;
+			children = (
+				03ABAC222012C4A100B396D1 /* LostCoastSurfTech */,
+				03ABAC372012C4A200B396D1 /* LostCoastSurfTechTests */,
+				03ABAC422012C4A200B396D1 /* LostCoastSurfTechUITests */,
+				03ABAC212012C4A100B396D1 /* Products */,
+				D3B952EED45EA70F0662254D /* Pods */,
+				2201FE335D301B6C412908E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03ABAC212012C4A100B396D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03ABAC202012C4A100B396D1 /* LostCoastSurfTech.app */,
+				03ABAC342012C4A200B396D1 /* LostCoastSurfTechTests.xctest */,
+				03ABAC3F2012C4A200B396D1 /* LostCoastSurfTechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03ABAC222012C4A100B396D1 /* LostCoastSurfTech */ = {
+			isa = PBXGroup;
+			children = (
+				03ABAC232012C4A100B396D1 /* AppDelegate.swift */,
+				03ABAC252012C4A100B396D1 /* ViewController.swift */,
+				03ABAC272012C4A100B396D1 /* Main.storyboard */,
+				03ABAC2A2012C4A100B396D1 /* Assets.xcassets */,
+				03ABAC2C2012C4A100B396D1 /* LaunchScreen.storyboard */,
+				03ABAC2F2012C4A200B396D1 /* Info.plist */,
+			);
+			path = LostCoastSurfTech;
+			sourceTree = "<group>";
+		};
+		03ABAC372012C4A200B396D1 /* LostCoastSurfTechTests */ = {
+			isa = PBXGroup;
+			children = (
+				03ABAC382012C4A200B396D1 /* LostCoastSurfTechTests.swift */,
+				03ABAC3A2012C4A200B396D1 /* Info.plist */,
+			);
+			path = LostCoastSurfTechTests;
+			sourceTree = "<group>";
+		};
+		03ABAC422012C4A200B396D1 /* LostCoastSurfTechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03ABAC432012C4A200B396D1 /* LostCoastSurfTechUITests.swift */,
+				03ABAC452012C4A200B396D1 /* Info.plist */,
+			);
+			path = LostCoastSurfTechUITests;
+			sourceTree = "<group>";
+		};
+		2201FE335D301B6C412908E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9BFA258FE53756B718A1041 /* Pods_LostCoastSurfTech.framework */,
+				B9BEEFBAFB5F316BD6AD3B67 /* Pods_LostCoastSurfTechTests.framework */,
+				022D22CAC36AF570AA6E9E83 /* Pods_LostCoastSurfTechUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3B952EED45EA70F0662254D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87C18B51DFE175606AC99896 /* Pods-LostCoastSurfTech.debug.xcconfig */,
+				D251EE08BD05B53C41A9E761 /* Pods-LostCoastSurfTech.release.xcconfig */,
+				B7482F765A5D1530A9C21D81 /* Pods-LostCoastSurfTechTests.debug.xcconfig */,
+				58F78D202C28B88A079AA735 /* Pods-LostCoastSurfTechTests.release.xcconfig */,
+				D658AF39D02016E90AB79E54 /* Pods-LostCoastSurfTechUITests.debug.xcconfig */,
+				E22CB85B01EA1B64B73C302C /* Pods-LostCoastSurfTechUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03ABAC1F2012C4A100B396D1 /* LostCoastSurfTech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03ABAC482012C4A200B396D1 /* Build configuration list for PBXNativeTarget "LostCoastSurfTech" */;
+			buildPhases = (
+				7A2DE4D998929AD27867E10F /* [CP] Check Pods Manifest.lock */,
+				03ABAC1C2012C4A100B396D1 /* Sources */,
+				03ABAC1D2012C4A100B396D1 /* Frameworks */,
+				03ABAC1E2012C4A100B396D1 /* Resources */,
+				CAEB747B14C2AD8BE336FD6B /* [CP] Embed Pods Frameworks */,
+				A9EFE8BA99B5E120BEC8ED7E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LostCoastSurfTech;
+			productName = LostCoastSurfTech;
+			productReference = 03ABAC202012C4A100B396D1 /* LostCoastSurfTech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03ABAC332012C4A200B396D1 /* LostCoastSurfTechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03ABAC4B2012C4A200B396D1 /* Build configuration list for PBXNativeTarget "LostCoastSurfTechTests" */;
+			buildPhases = (
+				2CC448999BC1494DE0A44F3B /* [CP] Check Pods Manifest.lock */,
+				03ABAC302012C4A200B396D1 /* Sources */,
+				03ABAC312012C4A200B396D1 /* Frameworks */,
+				03ABAC322012C4A200B396D1 /* Resources */,
+				0E3B362D6C4F861CD04B4115 /* [CP] Embed Pods Frameworks */,
+				2F41AC111E3E56EAF67C6301 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03ABAC362012C4A200B396D1 /* PBXTargetDependency */,
+			);
+			name = LostCoastSurfTechTests;
+			productName = LostCoastSurfTechTests;
+			productReference = 03ABAC342012C4A200B396D1 /* LostCoastSurfTechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03ABAC3E2012C4A200B396D1 /* LostCoastSurfTechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03ABAC4E2012C4A200B396D1 /* Build configuration list for PBXNativeTarget "LostCoastSurfTechUITests" */;
+			buildPhases = (
+				E065934D2A3316D6DC374D51 /* [CP] Check Pods Manifest.lock */,
+				03ABAC3B2012C4A200B396D1 /* Sources */,
+				03ABAC3C2012C4A200B396D1 /* Frameworks */,
+				03ABAC3D2012C4A200B396D1 /* Resources */,
+				0CD7F44225893A9ECBC63A7A /* [CP] Embed Pods Frameworks */,
+				49C20749FE90B0D85968E9A0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03ABAC412012C4A200B396D1 /* PBXTargetDependency */,
+			);
+			name = LostCoastSurfTechUITests;
+			productName = LostCoastSurfTechUITests;
+			productReference = 03ABAC3F2012C4A200B396D1 /* LostCoastSurfTechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03ABAC182012C4A100B396D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Devin Nicholson";
+				TargetAttributes = {
+					03ABAC1F2012C4A100B396D1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					03ABAC332012C4A200B396D1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03ABAC1F2012C4A100B396D1;
+					};
+					03ABAC3E2012C4A200B396D1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03ABAC1F2012C4A100B396D1;
+					};
+				};
+			};
+			buildConfigurationList = 03ABAC1B2012C4A100B396D1 /* Build configuration list for PBXProject "LostCoastSurfTech" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03ABAC172012C4A100B396D1;
+			productRefGroup = 03ABAC212012C4A100B396D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03ABAC1F2012C4A100B396D1 /* LostCoastSurfTech */,
+				03ABAC332012C4A200B396D1 /* LostCoastSurfTechTests */,
+				03ABAC3E2012C4A200B396D1 /* LostCoastSurfTechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03ABAC1E2012C4A100B396D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ABAC2E2012C4A100B396D1 /* LaunchScreen.storyboard in Resources */,
+				03ABAC2B2012C4A100B396D1 /* Assets.xcassets in Resources */,
+				03ABAC292012C4A100B396D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03ABAC322012C4A200B396D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03ABAC3D2012C4A200B396D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CD7F44225893A9ECBC63A7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LostCoastSurfTechUITests/Pods-LostCoastSurfTechUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E3B362D6C4F861CD04B4115 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LostCoastSurfTechTests/Pods-LostCoastSurfTechTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CC448999BC1494DE0A44F3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LostCoastSurfTechTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F41AC111E3E56EAF67C6301 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LostCoastSurfTechTests/Pods-LostCoastSurfTechTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49C20749FE90B0D85968E9A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LostCoastSurfTechUITests/Pods-LostCoastSurfTechUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A2DE4D998929AD27867E10F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LostCoastSurfTech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9EFE8BA99B5E120BEC8ED7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LostCoastSurfTech/Pods-LostCoastSurfTech-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAEB747B14C2AD8BE336FD6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LostCoastSurfTech/Pods-LostCoastSurfTech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E065934D2A3316D6DC374D51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LostCoastSurfTechUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03ABAC1C2012C4A100B396D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ABAC262012C4A100B396D1 /* ViewController.swift in Sources */,
+				03ABAC242012C4A100B396D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03ABAC302012C4A200B396D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ABAC392012C4A200B396D1 /* LostCoastSurfTechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03ABAC3B2012C4A200B396D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ABAC442012C4A200B396D1 /* LostCoastSurfTechUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03ABAC362012C4A200B396D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03ABAC1F2012C4A100B396D1 /* LostCoastSurfTech */;
+			targetProxy = 03ABAC352012C4A200B396D1 /* PBXContainerItemProxy */;
+		};
+		03ABAC412012C4A200B396D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03ABAC1F2012C4A100B396D1 /* LostCoastSurfTech */;
+			targetProxy = 03ABAC402012C4A200B396D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03ABAC272012C4A100B396D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03ABAC282012C4A100B396D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03ABAC2C2012C4A100B396D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03ABAC2D2012C4A100B396D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03ABAC462012C4A200B396D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03ABAC472012C4A200B396D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03ABAC492012C4A200B396D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C18B51DFE175606AC99896 /* Pods-LostCoastSurfTech.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EMQCJ63VR7;
+				INFOPLIST_FILE = LostCoastSurfTech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nicholson.LostCoastSurfTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03ABAC4A2012C4A200B396D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D251EE08BD05B53C41A9E761 /* Pods-LostCoastSurfTech.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EMQCJ63VR7;
+				INFOPLIST_FILE = LostCoastSurfTech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nicholson.LostCoastSurfTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03ABAC4C2012C4A200B396D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7482F765A5D1530A9C21D81 /* Pods-LostCoastSurfTechTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LostCoastSurfTechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nicholson.LostCoastSurfTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LostCoastSurfTech.app/LostCoastSurfTech";
+			};
+			name = Debug;
+		};
+		03ABAC4D2012C4A200B396D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F78D202C28B88A079AA735 /* Pods-LostCoastSurfTechTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LostCoastSurfTechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nicholson.LostCoastSurfTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LostCoastSurfTech.app/LostCoastSurfTech";
+			};
+			name = Release;
+		};
+		03ABAC4F2012C4A200B396D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D658AF39D02016E90AB79E54 /* Pods-LostCoastSurfTechUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LostCoastSurfTechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nicholson.LostCoastSurfTechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LostCoastSurfTech;
+			};
+			name = Debug;
+		};
+		03ABAC502012C4A200B396D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22CB85B01EA1B64B73C302C /* Pods-LostCoastSurfTechUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LostCoastSurfTechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nicholson.LostCoastSurfTechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LostCoastSurfTech;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03ABAC1B2012C4A100B396D1 /* Build configuration list for PBXProject "LostCoastSurfTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03ABAC462012C4A200B396D1 /* Debug */,
+				03ABAC472012C4A200B396D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03ABAC482012C4A200B396D1 /* Build configuration list for PBXNativeTarget "LostCoastSurfTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03ABAC492012C4A200B396D1 /* Debug */,
+				03ABAC4A2012C4A200B396D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03ABAC4B2012C4A200B396D1 /* Build configuration list for PBXNativeTarget "LostCoastSurfTechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03ABAC4C2012C4A200B396D1 /* Debug */,
+				03ABAC4D2012C4A200B396D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03ABAC4E2012C4A200B396D1 /* Build configuration list for PBXNativeTarget "LostCoastSurfTechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03ABAC4F2012C4A200B396D1 /* Debug */,
+				03ABAC502012C4A200B396D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03ABAC182012C4A100B396D1 /* Project object */;
+}

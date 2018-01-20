@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		236C8E7F21418E43AC4D20302D08DAF7 /* Pods-LostCoastSurfTechUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5985653B4994794D75F85A7A828256D2 /* Pods-LostCoastSurfTechUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8D0E5A76FF9417B76833653B423347 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		427537297235A26BD99515EE92EFEE64 /* Pods-LostCoastSurfTechTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03BD8DB344987708BEEF9F5E7AF25036 /* Pods-LostCoastSurfTechTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		799F261B8886768EE6901FE28511E5FA /* Pods-LostCoastSurfTech-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BE53B473E03DA6DDCF8323FB92A95B /* Pods-LostCoastSurfTech-dummy.m */; };
+		948D2579D80F48BB7115637C0BC00B7F /* Pods-LostCoastSurfTech-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE7A618EE81EECC2B495D11F6EE99851 /* Pods-LostCoastSurfTech-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A70942C8A8EC39D82E168120ED75F601 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AABFE80D4FC6CEA34DA3A860E3BCBF03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C8F489FA750A18434345BC2F69E090E3 /* Pods-LostCoastSurfTechTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3437FADF14E5CA5EB99543C3F8FEFF0D /* Pods-LostCoastSurfTechTests-dummy.m */; };
+		DB3F1D0AE1B336757FFD4228911CB0A5 /* Pods-LostCoastSurfTechUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C158947CC6A8805E3485280971E58E /* Pods-LostCoastSurfTechUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03BD8DB344987708BEEF9F5E7AF25036 /* Pods-LostCoastSurfTechTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LostCoastSurfTechTests-umbrella.h"; sourceTree = "<group>"; };
+		093D4664A37C03A02B3E52B8DDF504D7 /* Pods-LostCoastSurfTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LostCoastSurfTech.release.xcconfig"; sourceTree = "<group>"; };
+		186F80D0249ABAF11E26736F2A83A18B /* Pods-LostCoastSurfTechTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LostCoastSurfTechTests.modulemap"; sourceTree = "<group>"; };
+		1A8017E340E977B9FCAE72388A264D57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA4394374BAB239FEDB91617B19538F /* Pods-LostCoastSurfTechUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LostCoastSurfTechUITests.modulemap"; sourceTree = "<group>"; };
+		2ED2BBAF767F035D58911BC4FC99CCDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF1B0ADCEC27A966FFA38E5EDAAB546 /* Pods-LostCoastSurfTech-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LostCoastSurfTech-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F43804B5751046B32A74654F649DE74 /* Pods-LostCoastSurfTech-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LostCoastSurfTech-frameworks.sh"; sourceTree = "<group>"; };
+		3437FADF14E5CA5EB99543C3F8FEFF0D /* Pods-LostCoastSurfTechTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LostCoastSurfTechTests-dummy.m"; sourceTree = "<group>"; };
+		39E3C7EC35DC227269E2943D33687CFA /* Pods-LostCoastSurfTechUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LostCoastSurfTechUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E40A4B346C4C95C48369DB99FAD5757 /* Pods-LostCoastSurfTechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LostCoastSurfTechTests.release.xcconfig"; sourceTree = "<group>"; };
+		3EB91C39C7DF09E41558982B84E16C93 /* Pods-LostCoastSurfTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LostCoastSurfTech.debug.xcconfig"; sourceTree = "<group>"; };
+		4900DF56592484480151E1736E03E11E /* Pods-LostCoastSurfTechUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LostCoastSurfTechUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		568309A5AE51F8AA9DB1B6CBCE8880E2 /* Pods-LostCoastSurfTechTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LostCoastSurfTechTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5985653B4994794D75F85A7A828256D2 /* Pods-LostCoastSurfTechUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LostCoastSurfTechUITests-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F2043AF2CD8E7C2706795AD1CEB6C13 /* Pods-LostCoastSurfTechTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LostCoastSurfTechTests-frameworks.sh"; sourceTree = "<group>"; };
+		8087E3AFC9FE21C8BA941CB736D7B287 /* Pods-LostCoastSurfTech-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LostCoastSurfTech-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8955191A8E3D21FC3BDE17A4354AC8AD /* Pods-LostCoastSurfTech-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LostCoastSurfTech-resources.sh"; sourceTree = "<group>"; };
+		9018DE13004C50706CF90575EEFB9EEB /* Pods-LostCoastSurfTechTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LostCoastSurfTechTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9169C8CE3D87392DD27907A8916200DA /* Pods-LostCoastSurfTechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LostCoastSurfTechTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		947E04DBCE6D1A5AC2D6E7C04D514A8C /* Pods-LostCoastSurfTechUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LostCoastSurfTechUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D7B3FC1BCA0B872C5F2543554AFFD6B /* Pods_LostCoastSurfTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LostCoastSurfTech.framework; path = "Pods-LostCoastSurfTech.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65D872A572E759FB015702047DD1974 /* Pods-LostCoastSurfTech.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LostCoastSurfTech.modulemap"; sourceTree = "<group>"; };
+		AD141BE3E83DBEAA050DD66BD48D240C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3BE53B473E03DA6DDCF8323FB92A95B /* Pods-LostCoastSurfTech-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LostCoastSurfTech-dummy.m"; sourceTree = "<group>"; };
+		BC393A82E52A6DAB111B8422063F0AC5 /* Pods-LostCoastSurfTechTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LostCoastSurfTechTests-resources.sh"; sourceTree = "<group>"; };
+		CAA6EBE07BE920952B6E7F80A633B496 /* Pods_LostCoastSurfTechUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LostCoastSurfTechUITests.framework; path = "Pods-LostCoastSurfTechUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD2AFF29A51D9093FF8A837CC5890CC /* Pods-LostCoastSurfTechUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LostCoastSurfTechUITests-resources.sh"; sourceTree = "<group>"; };
+		CE7A618EE81EECC2B495D11F6EE99851 /* Pods-LostCoastSurfTech-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LostCoastSurfTech-umbrella.h"; sourceTree = "<group>"; };
+		CEBB7D9784D26C0A0C179629CA2519A7 /* Pods-LostCoastSurfTechUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LostCoastSurfTechUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D5BB98D7E6B66216FE3F3FA407C82DC4 /* Pods_LostCoastSurfTechTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LostCoastSurfTechTests.framework; path = "Pods-LostCoastSurfTechTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60F8BD66B5D5067BA39C5153CD8AB7B /* Pods-LostCoastSurfTechUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LostCoastSurfTechUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9C158947CC6A8805E3485280971E58E /* Pods-LostCoastSurfTechUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LostCoastSurfTechUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD863641E6AEAC077E5F33871433DFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABFE80D4FC6CEA34DA3A860E3BCBF03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94885A0B98BB25384C8F69597F6501F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70942C8A8EC39D82E168120ED75F601 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF075A113761578E310681EFD780E410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8D0E5A76FF9417B76833653B423347 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9FB12B2B2C3ED2E3709003748DCF8406 /* Products */,
+				A18334A1455EBBC906FD42CFCCB68264 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9FB12B2B2C3ED2E3709003748DCF8406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D7B3FC1BCA0B872C5F2543554AFFD6B /* Pods_LostCoastSurfTech.framework */,
+				D5BB98D7E6B66216FE3F3FA407C82DC4 /* Pods_LostCoastSurfTechTests.framework */,
+				CAA6EBE07BE920952B6E7F80A633B496 /* Pods_LostCoastSurfTechUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A18334A1455EBBC906FD42CFCCB68264 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B42AEAC06F1F1653D364512C5A385A42 /* Pods-LostCoastSurfTech */,
+				F41C2CB8F5FA3A3173C2F2C51B1ADED3 /* Pods-LostCoastSurfTechTests */,
+				B3B09AF7AB90DED853E8E70377DA6369 /* Pods-LostCoastSurfTechUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B3B09AF7AB90DED853E8E70377DA6369 /* Pods-LostCoastSurfTechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD141BE3E83DBEAA050DD66BD48D240C /* Info.plist */,
+				1FA4394374BAB239FEDB91617B19538F /* Pods-LostCoastSurfTechUITests.modulemap */,
+				39E3C7EC35DC227269E2943D33687CFA /* Pods-LostCoastSurfTechUITests-acknowledgements.markdown */,
+				947E04DBCE6D1A5AC2D6E7C04D514A8C /* Pods-LostCoastSurfTechUITests-acknowledgements.plist */,
+				F9C158947CC6A8805E3485280971E58E /* Pods-LostCoastSurfTechUITests-dummy.m */,
+				CEBB7D9784D26C0A0C179629CA2519A7 /* Pods-LostCoastSurfTechUITests-frameworks.sh */,
+				CCD2AFF29A51D9093FF8A837CC5890CC /* Pods-LostCoastSurfTechUITests-resources.sh */,
+				5985653B4994794D75F85A7A828256D2 /* Pods-LostCoastSurfTechUITests-umbrella.h */,
+				4900DF56592484480151E1736E03E11E /* Pods-LostCoastSurfTechUITests.debug.xcconfig */,
+				D60F8BD66B5D5067BA39C5153CD8AB7B /* Pods-LostCoastSurfTechUITests.release.xcconfig */,
+			);
+			name = "Pods-LostCoastSurfTechUITests";
+			path = "Target Support Files/Pods-LostCoastSurfTechUITests";
+			sourceTree = "<group>";
+		};
+		B42AEAC06F1F1653D364512C5A385A42 /* Pods-LostCoastSurfTech */ = {
+			isa = PBXGroup;
+			children = (
+				1A8017E340E977B9FCAE72388A264D57 /* Info.plist */,
+				A65D872A572E759FB015702047DD1974 /* Pods-LostCoastSurfTech.modulemap */,
+				8087E3AFC9FE21C8BA941CB736D7B287 /* Pods-LostCoastSurfTech-acknowledgements.markdown */,
+				2EF1B0ADCEC27A966FFA38E5EDAAB546 /* Pods-LostCoastSurfTech-acknowledgements.plist */,
+				B3BE53B473E03DA6DDCF8323FB92A95B /* Pods-LostCoastSurfTech-dummy.m */,
+				2F43804B5751046B32A74654F649DE74 /* Pods-LostCoastSurfTech-frameworks.sh */,
+				8955191A8E3D21FC3BDE17A4354AC8AD /* Pods-LostCoastSurfTech-resources.sh */,
+				CE7A618EE81EECC2B495D11F6EE99851 /* Pods-LostCoastSurfTech-umbrella.h */,
+				3EB91C39C7DF09E41558982B84E16C93 /* Pods-LostCoastSurfTech.debug.xcconfig */,
+				093D4664A37C03A02B3E52B8DDF504D7 /* Pods-LostCoastSurfTech.release.xcconfig */,
+			);
+			name = "Pods-LostCoastSurfTech";
+			path = "Target Support Files/Pods-LostCoastSurfTech";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F41C2CB8F5FA3A3173C2F2C51B1ADED3 /* Pods-LostCoastSurfTechTests */ = {
+			isa = PBXGroup;
+			children = (
+				2ED2BBAF767F035D58911BC4FC99CCDA /* Info.plist */,
+				186F80D0249ABAF11E26736F2A83A18B /* Pods-LostCoastSurfTechTests.modulemap */,
+				9018DE13004C50706CF90575EEFB9EEB /* Pods-LostCoastSurfTechTests-acknowledgements.markdown */,
+				568309A5AE51F8AA9DB1B6CBCE8880E2 /* Pods-LostCoastSurfTechTests-acknowledgements.plist */,
+				3437FADF14E5CA5EB99543C3F8FEFF0D /* Pods-LostCoastSurfTechTests-dummy.m */,
+				7F2043AF2CD8E7C2706795AD1CEB6C13 /* Pods-LostCoastSurfTechTests-frameworks.sh */,
+				BC393A82E52A6DAB111B8422063F0AC5 /* Pods-LostCoastSurfTechTests-resources.sh */,
+				03BD8DB344987708BEEF9F5E7AF25036 /* Pods-LostCoastSurfTechTests-umbrella.h */,
+				9169C8CE3D87392DD27907A8916200DA /* Pods-LostCoastSurfTechTests.debug.xcconfig */,
+				3E40A4B346C4C95C48369DB99FAD5757 /* Pods-LostCoastSurfTechTests.release.xcconfig */,
+			);
+			name = "Pods-LostCoastSurfTechTests";
+			path = "Target Support Files/Pods-LostCoastSurfTechTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D050972FA0BCB776E0B87DA5BC99496 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427537297235A26BD99515EE92EFEE64 /* Pods-LostCoastSurfTechTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7A66BDDACC22447D68EC11A20123FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236C8E7F21418E43AC4D20302D08DAF7 /* Pods-LostCoastSurfTechUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE697DD2E792FF8F6573A8D7605E48CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948D2579D80F48BB7115637C0BC00B7F /* Pods-LostCoastSurfTech-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1115B8ED7B05498D93CA3CC32904D02E /* Pods-LostCoastSurfTechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BA851A345939BD76AFBF2FAA4C3DD65 /* Build configuration list for PBXNativeTarget "Pods-LostCoastSurfTechTests" */;
+			buildPhases = (
+				EC6A3C5FF14497A2D5F62485DC79BC18 /* Sources */,
+				D94885A0B98BB25384C8F69597F6501F /* Frameworks */,
+				2D050972FA0BCB776E0B87DA5BC99496 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LostCoastSurfTechTests";
+			productName = "Pods-LostCoastSurfTechTests";
+			productReference = D5BB98D7E6B66216FE3F3FA407C82DC4 /* Pods_LostCoastSurfTechTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65322C3013A4FDDDF6D47545A56DD675 /* Pods-LostCoastSurfTechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5E62ADA7A84CB02652864ACB150E85 /* Build configuration list for PBXNativeTarget "Pods-LostCoastSurfTechUITests" */;
+			buildPhases = (
+				FB9BD905E602DCC718D022DD053F03BA /* Sources */,
+				AD863641E6AEAC077E5F33871433DFEE /* Frameworks */,
+				4E7A66BDDACC22447D68EC11A20123FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LostCoastSurfTechUITests";
+			productName = "Pods-LostCoastSurfTechUITests";
+			productReference = CAA6EBE07BE920952B6E7F80A633B496 /* Pods_LostCoastSurfTechUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8378CA978A16290321FAB7B752910033 /* Pods-LostCoastSurfTech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A2076BBCAE2CAF0244798773130BF6 /* Build configuration list for PBXNativeTarget "Pods-LostCoastSurfTech" */;
+			buildPhases = (
+				E4642E98E89233248E1BC2E2B399CA1D /* Sources */,
+				FF075A113761578E310681EFD780E410 /* Frameworks */,
+				BE697DD2E792FF8F6573A8D7605E48CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LostCoastSurfTech";
+			productName = "Pods-LostCoastSurfTech";
+			productReference = 9D7B3FC1BCA0B872C5F2543554AFFD6B /* Pods_LostCoastSurfTech.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9FB12B2B2C3ED2E3709003748DCF8406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8378CA978A16290321FAB7B752910033 /* Pods-LostCoastSurfTech */,
+				1115B8ED7B05498D93CA3CC32904D02E /* Pods-LostCoastSurfTechTests */,
+				65322C3013A4FDDDF6D47545A56DD675 /* Pods-LostCoastSurfTechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4642E98E89233248E1BC2E2B399CA1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799F261B8886768EE6901FE28511E5FA /* Pods-LostCoastSurfTech-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6A3C5FF14497A2D5F62485DC79BC18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F489FA750A18434345BC2F69E090E3 /* Pods-LostCoastSurfTechTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9BD905E602DCC718D022DD053F03BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3F1D0AE1B336757FFD4228911CB0A5 /* Pods-LostCoastSurfTechUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2ED1579ED5BFF9CE965AA7FE44EBA25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 093D4664A37C03A02B3E52B8DDF504D7 /* Pods-LostCoastSurfTech.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LostCoastSurfTech/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LostCoastSurfTech/Pods-LostCoastSurfTech.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LostCoastSurfTech;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		52DA4B4B0DF4CDE75A49F88FB8063ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9169C8CE3D87392DD27907A8916200DA /* Pods-LostCoastSurfTechTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LostCoastSurfTechTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LostCoastSurfTechTests/Pods-LostCoastSurfTechTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LostCoastSurfTechTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F5648FF345276FEA7C5A339E7E67CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB91C39C7DF09E41558982B84E16C93 /* Pods-LostCoastSurfTech.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LostCoastSurfTech/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LostCoastSurfTech/Pods-LostCoastSurfTech.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LostCoastSurfTech;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A024562DC546BE9991378E1D9440DBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D60F8BD66B5D5067BA39C5153CD8AB7B /* Pods-LostCoastSurfTechUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LostCoastSurfTechUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LostCoastSurfTechUITests/Pods-LostCoastSurfTechUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LostCoastSurfTechUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C63B41142DFFCAA270A0B2F78952FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E40A4B346C4C95C48369DB99FAD5757 /* Pods-LostCoastSurfTechTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LostCoastSurfTechTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LostCoastSurfTechTests/Pods-LostCoastSurfTechTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LostCoastSurfTechTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6562DB179713A9B48365A7CA4B6C7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4900DF56592484480151E1736E03E11E /* Pods-LostCoastSurfTechUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LostCoastSurfTechUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LostCoastSurfTechUITests/Pods-LostCoastSurfTechUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LostCoastSurfTechUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BA851A345939BD76AFBF2FAA4C3DD65 /* Build configuration list for PBXNativeTarget "Pods-LostCoastSurfTechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DA4B4B0DF4CDE75A49F88FB8063ECD /* Debug */,
+				C63B41142DFFCAA270A0B2F78952FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A2076BBCAE2CAF0244798773130BF6 /* Build configuration list for PBXNativeTarget "Pods-LostCoastSurfTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5648FF345276FEA7C5A339E7E67CBB /* Debug */,
+				2ED1579ED5BFF9CE965AA7FE44EBA25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5E62ADA7A84CB02652864ACB150E85 /* Build configuration list for PBXNativeTarget "Pods-LostCoastSurfTechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6562DB179713A9B48365A7CA4B6C7B9 /* Debug */,
+				A024562DC546BE9991378E1D9440DBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
